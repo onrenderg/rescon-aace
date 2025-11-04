@@ -188,7 +188,7 @@
                     <RowDefinition Height="Auto"/>
                     <RowDefinition Height="Auto"/>
                 </Grid.RowDefinitions>
-                <Image x:Name="Tab_Home_Image" Source="ic_Homewhite.png" HeightRequest="20" Grid.Row="0"/>
+                <Image x:Name="Tab_Home_Image" Source="ic_homewhite.png" HeightRequest="20" Grid.Row="0"/>
                 <Label x:Name="Tab_Home_Label" Text="Home" Style="{StaticResource LabelStyle_TabMenu}" Grid.Row="1"/>
             </Grid>
 

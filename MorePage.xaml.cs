@@ -50,7 +50,7 @@ namespace ResillentConstruction
             Footer_Labels = new Label[3] { Tab_Home_Label, Tab_Download_Label, Tab_Settings_Label };
             Footer_Images = new Image[3] { Tab_Home_Image, Tab_Download_Image, Tab_Settings_Image };
             //Footer_Image_Source = new string[3] { "ic_stock.png", "ic_add.png", "ic_more.png" };
-            Footer_Image_Source = new string[3] { "ic_Homewhite.png", "ic_download.png", "ic_more.png" };
+            Footer_Image_Source = new string[3] { "ic_homewhite.png", "ic_download.png", "ic_more.png" };
 
         }
 
@@ -60,7 +60,7 @@ namespace ResillentConstruction
             Tab_Home_Label.Text = App.LableText("Home");
             Tab_Download_Label.Text = App.LableText("Download");
             Tab_Settings_Label.Text = App.LableText("More");
-            Footer_Image_Source = new string[3] { "ic_Homewhite.png", "ic_downloadehite.png", "ic_more.png" };
+            Footer_Image_Source = new string[3] { "ic_homewhite.png", "ic_downloadehite.png", "ic_more.png" };
             Footer_Images[Preferences.Get("Active", 0)].Source = Footer_Image_Source[Preferences.Get("Active", 0)];
             Footer_Labels[Preferences.Get("Active", 0)].TextColor = Color.FromArgb("#FF0F0F0F");
         }

@@ -66,7 +66,7 @@
                 <StackLayout.GestureRecognizers>
                     <TapGestureRecognizer Tapped="Tab_Home_Tapped"/>
                 </StackLayout.GestureRecognizers>
-                <Image x:Name="Tab_Home_Image" Source="ic_Homewhite.png" HeightRequest="20"/>
+                <Image x:Name="Tab_Home_Image" Source="ic_homewhite.png" HeightRequest="20"/>
                 <Label x:Name="Tab_Home_Label" Text="Home" Style="{StaticResource LabelStyle_TabMenu}"/>
             </StackLayout>
 
